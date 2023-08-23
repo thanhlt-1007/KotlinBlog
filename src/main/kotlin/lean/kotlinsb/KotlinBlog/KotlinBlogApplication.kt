@@ -7,5 +7,7 @@ import org.springframework.boot.runApplication
 class KotlinBlogApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinBlogApplication>(*args)
+  runApplication<KotlinBlogApplication>(*args) {
+    // setBannerMode(Banner.Mode.OFF)
+  }
 }
